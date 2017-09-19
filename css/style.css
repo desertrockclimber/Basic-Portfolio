@@ -15,9 +15,11 @@ header {
 	float: left;
 	background-color: #4aaaa5;
 	border: solid #aaa;
+
 	
-
-
+}
+#backgroundimg{
+	background-image: url("images/slc-panorama.jpg");
 
 }
 #navigation{
@@ -43,7 +45,7 @@ header {
 	background-repeat: 20px;
 	width: 1200px;
 	clear: both;
-	height: 300px;
+	height: 500px;
 	border-top:solid #ccc 5px;
 	border-bottom: solid #4aaaa5 10px;
 }
@@ -56,6 +58,7 @@ header {
 	border: solid #ccc;
 	padding-right: 10px;
 	color: #777777;
+
 
 }
 img#bio-image{
@@ -160,4 +163,86 @@ a{
 body{
 	max-width: 1200px;
 	margin: auto;
+}
+
+input[type=text], select, textarea {
+	width: 90%;
+	padding: 10px;
+	border: solid 1px #ccc;
+	margin: auto;
+
+
+}
+#contactme{
+width: 650px;
+background: #eee;
+
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+ }
+
+ input[type=submit]{
+	background-color: #4aaaa5;
+	color: white;
+
+
+ }
+ label{
+ 	padding-top: 10px;
+ }
+
+ form{
+	margin-top: 10px;
+	padding-left: 20px;
+ }
+ .box {
+  /* Absolute Position */
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+ .box-1 {
+  top: 3%;
+  left: 0%;
+  float: left;
+}
+
+.box-2 {
+  top: 20%;
+  right: 0px;
+  float: right;
+}
+
+.box-3 {
+  right: 0%;
+  bottom: 0%;
+  float: left;
+}
+
+.box-4 {
+  bottom: 0;
+  float: right;
+}
+
+.box-5{
+	bottom: 20%;
+	float: left;
+}
+.box-6{
+	right: 0%;
+	bottom: 20%;
+	float: right;
+}
+.lower-pageportfolio{
+	background-image: url("../images/triangular.png");
+	background-repeat: 20px;
+	width: 1200px;
+	clear: both;
+	height: 850px;
+	border-top:solid #ccc 5px;
+	border-bottom: solid #4aaaa5 10px;
 }
